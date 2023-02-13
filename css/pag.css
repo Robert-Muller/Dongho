@@ -1,0 +1,26 @@
+.pagination{
+    margin: 0px auto;
+    padding-top: 2rem;
+  }
+  .pagination ul{
+    display: flex;
+    list-style: none;
+    /* justify-content: center; */
+  }
+  .pagination ul li{
+    margin: 0px 5px;
+    border-radius: 2px;
+    padding: 5px;
+    border: 0.5px solid gray;
+  }
+  .pagination ul li a{
+    padding: 20px 10px;
+    color: black;
+    font-weight: 500;
+  }
+  .currentpag{
+  background-color: #c89979;
+  margin: 0px 5px;
+  border-radius: 2px;
+  padding: 5px;
+  }
